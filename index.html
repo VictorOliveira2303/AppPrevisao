@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+10&family=Matemasie&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>AppPrevisao</title>
+</head>
+
+<body>
+    <div class="caixa-maior">
+        <h2 class="Titulo">&#x2600; Previsão do Tempo &#x2600;</h2>
+        <input type="text" placeholder="cidade" class="input-cidade">
+        <button class="btn-pesquisa" onclick="Coletar()">Pesquisar</button>
+        <div class="caixa-media">
+            <p class="cidade">Tempo em </p>
+            <p class="graus">Temperatura:  °C</p>
+        </div>
+        <div class="caixa-pequena">
+            <p class="previsao">Ensolarado</p>
+            <img class="img-previsao" src="https://openweathermap.org/img/wn/01d.png" alt="">
+        </div>
+        <p class="umidade">Umidade Relativa do Ar:  %</p>
+        <p class="pressao">Pressao atmosférica:  hPa</p>
+        <p class="nivelMar">Nivel do Mar:  hPa</p>
+        <p class="tempMax">Temperatura Maxima:  °C</p>
+        <p class="tempMin">Temperatura Minima:  °C</p>
+    </div>
+    <script src="main.js"></script>
+</body>

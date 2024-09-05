@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    list-style: 150%;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: cyan;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.caixa-maior {
+    background-color: blue;
+    color: cyan;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+input {
+    outline: none;
+}
+
+.caixa-pequena{
+    display: flex;
+    align-items:center ;
+}
+
+.btn-pesquisa{
+    background-color: blue;
+    color: darkred;
+}
+
+.previsao{
+    text-transform: capitalize;
+}
+
+button{
+    cursor: pointer;
+}
